@@ -37,7 +37,6 @@ def main():
     result2 = 0
     result3 = 0
     result4 = 0
-    result5 = 0
     # End of Setup code ---------------------------
 
 
@@ -45,13 +44,41 @@ def main():
     # Part 1: Basic Operations
     # =============================================
     # Your code for part 1 under this line and before the print statements
+    
+    
+    # Assign the required values to the variables
+    x = 27
+    y = 1
+    a = 1.5
+    b = 7
+    c = -1
+    
+     #Calculate the result using the formula
+    result1 = (3*x - 9*y)/ (2*a*(b-c))
+    
+    print("Part 1: x =", x)
+    print("Part 1: y =", y)
+    print("Part 1: a =", a)
+    print("Part 1: b =", b)
+    print("Part 1: c =", c)
+    print("Part 1: result =", result1)
 
     # End of Part 1 ----------------------
 
 
     # Part 2: Power
     # =============================================
-    # Your code for part 2 under this line and before the print statements
+    #Assign the numbers to the right variables
+    
+    x = 5
+    y = -3
+    
+    #Calculate reuslt2 using the formula
+    result2 = x**2 * y**4
+    
+    print("Part 2: x =", 5)
+    print("Part 2: y =", -3)
+    print("Part 2: result =", result2)
 
     # End of Part 2 ----------------------
 
@@ -61,12 +88,31 @@ def main():
     # =============================================
     # Your code for part 3 under this line and before the print statements
 
+    # Assign the numbers to the right variables.
+    #Variable named a represents the total number of treats
+    # Variable b represents the total number of dogs
+    
+    a = 100
+    b = 13
+    
+    # result3 represents the number of whole(integer) treats that each dog gets.
+    result3 = (a // b)
+    
+    print("Part 3: a =", 100)
+    print("Part 3: b =", 13)
+    print("Part 3: result =", result3)
+    
     # End of Part 3 ----------------------
 
 
     # Part 4: Modulo
     # =============================================
     # Your code for part 4 under this line and before the print statements
+
+    # Result4 should show the remaining left over treats
+    result4 =  (a % b)
+    
+    print("Part 4: result =", result4)
 
     # End of Part 4 ----------------------
 
